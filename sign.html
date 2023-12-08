@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style type="text/css">
+  	*{
+  		margin: 0px;
+  		padding: 0px;
+  	}
+  	.main{
+  		width: 100%;
+  		min-height: 800px;
+  		background-image: url(image1/net.jpg);
+  	    position: relative;
+  		
+  	}
+  	.overlay{
+  		min-height: 800px;
+  		
+  	   background-color: black;
+  		opacity: 0.5;
+  	
+  	}
+	  /* .overlay{
+  		background-image:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2));
+  		min-height: 800px;
+  		width: 100%;
+  		opacity: 0.5;
+  	} */
+  	.inner-form{
+  		position: absolute;
+  		top:150px;
+  		left: 35%;
+  		width: 450px;
+  		height: 600px;
+  		background-color: black;
+  		opacity: 0.7;
+  		color: white;
+
+  	}
+  	.form-content{
+  		color: white;
+  		position: absolute;
+  		top: 20%;
+  		left: 40%;
+  	}
+  	.logo{
+  		position: absolute;
+  		bottom: 700px;
+  		left: 150px;
+  	}
+  	.btn{
+  		background-color: red;
+  		width: 300px;
+  		color: white;
+
+  	}
+  	input{
+
+  		height: 40px;
+  		width: 300px;
+  		border: none;
+  		padding-left: 15px;
+  	}
+  	.box{
+  		margin-top: 50px;
+  		width: 100%;
+  		height: 400px;
+  		background-color: black;
+  		opacity: 0.5;
+
+  	}
+  	.btnn1{
+  	 	
+  	 	width: 120px;
+        border-radius: 5px;
+  	 	background: transparent;
+  	 	color: white;
+  	 }
+  </style>
+</head>
+<body>
+    <div class="container-fluid main">
+		<div class="overlay"></div>
+		<div class="logo"><a href="net.html"><img src="image1/Netflix_Logo_PMS.png" width="170px"></a></div>
+		<div class="inner-form"></div>
+		<div class="form-content">
+			<form >
+ <div class="mb-3 mt-3">
+	<h1>Sign In</h1>
+	  <input type="email" class="bg-dark text-white mt-5"name="email" placeholder="Email or phone number"><br><br>
+	   <input type="email" class="bg-dark text-white"name="email" placeholder="Password"><br><br><br>
+	   <button class="btn" style="font-weight: 800">Sign In</button><br>
+		<label class="form-check-label mt-2 text-secondary">
+	 <input class="form-check-input text-secondary" type="checkbox" name="remember"> Remember me
+   </label>
+   <a href="#" class="text-secondary" style="margin-left: 30%">Need help?</a>
+   <p class="mt-5 text-secondary">New to Netflix?  <a href="#" class="text-white">Sign up now.</a></p>
+
+   <p class="text-secondary">This page is protected by Google reCAPTCHA to<br> ensure you're not a bot.<a href="#">Learn more.</a></p>
+ </div>
+
+</form>
+		</div>
+
+</div>
+
+</body>
+</html>
